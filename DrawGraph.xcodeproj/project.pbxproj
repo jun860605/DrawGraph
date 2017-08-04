@@ -15,6 +15,11 @@
 		381869191F32174D0066CAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381869171F32174D0066CAE8 /* LaunchScreen.storyboard */; };
 		381869241F32174D0066CAE8 /* DrawGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381869231F32174D0066CAE8 /* DrawGraphTests.m */; };
 		3818692F1F32174D0066CAE8 /* DrawGraphUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818692E1F32174D0066CAE8 /* DrawGraphUITests.m */; };
+		3818693F1F32196E0066CAE8 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818693E1F32196E0066CAE8 /* ArcView.m */; };
+		382AC0581F344CF300F75A60 /* ImageAndStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382AC0571F344CF300F75A60 /* ImageAndStringView.m */; };
+		382AC05A1F346DEA00F75A60 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382AC0591F346DEA00F75A60 /* 1@2x.png */; };
+		382AC05D1F34726600F75A60 /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 382AC05C1F34726600F75A60 /* CustomBtn.m */; };
+		38C290501F330ED30041ED0A /* basketball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C2904F1F330ED30041ED0A /* basketball@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		3818692A1F32174D0066CAE8 /* DrawGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3818692E1F32174D0066CAE8 /* DrawGraphUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawGraphUITests.m; sourceTree = "<group>"; };
 		381869301F32174D0066CAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3818693D1F32196E0066CAE8 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		3818693E1F32196E0066CAE8 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		382AC0561F344CF300F75A60 /* ImageAndStringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndStringView.h; sourceTree = "<group>"; };
+		382AC0571F344CF300F75A60 /* ImageAndStringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndStringView.m; sourceTree = "<group>"; };
+		382AC0591F346DEA00F75A60 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		382AC05B1F34726600F75A60 /* CustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
+		382AC05C1F34726600F75A60 /* CustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
+		38C2904F1F330ED30041ED0A /* basketball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basketball@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,7 @@
 		381868FD1F32174C0066CAE8 = {
 			isa = PBXGroup;
 			children = (
+				3818693C1F3219580066CAE8 /* Class */,
 				381869081F32174D0066CAE8 /* DrawGraph */,
 				381869221F32174D0066CAE8 /* DrawGraphTests */,
 				3818692D1F32174D0066CAE8 /* DrawGraphUITests */,
@@ -138,6 +152,21 @@
 				381869301F32174D0066CAE8 /* Info.plist */,
 			);
 			path = DrawGraphUITests;
+			sourceTree = "<group>";
+		};
+		3818693C1F3219580066CAE8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				38C2904F1F330ED30041ED0A /* basketball@2x.png */,
+				382AC0591F346DEA00F75A60 /* 1@2x.png */,
+				3818693D1F32196E0066CAE8 /* ArcView.h */,
+				3818693E1F32196E0066CAE8 /* ArcView.m */,
+				382AC0561F344CF300F75A60 /* ImageAndStringView.h */,
+				382AC0571F344CF300F75A60 /* ImageAndStringView.m */,
+				382AC05B1F34726600F75A60 /* CustomBtn.h */,
+				382AC05C1F34726600F75A60 /* CustomBtn.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +277,9 @@
 			files = (
 				381869191F32174D0066CAE8 /* LaunchScreen.storyboard in Resources */,
 				381869161F32174D0066CAE8 /* Assets.xcassets in Resources */,
+				382AC05A1F346DEA00F75A60 /* 1@2x.png in Resources */,
 				381869141F32174D0066CAE8 /* Main.storyboard in Resources */,
+				38C290501F330ED30041ED0A /* basketball@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				381869111F32174D0066CAE8 /* ViewController.m in Sources */,
+				382AC05D1F34726600F75A60 /* CustomBtn.m in Sources */,
+				382AC0581F344CF300F75A60 /* ImageAndStringView.m in Sources */,
+				3818693F1F32196E0066CAE8 /* ArcView.m in Sources */,
 				3818690E1F32174D0066CAE8 /* AppDelegate.m in Sources */,
 				3818690B1F32174D0066CAE8 /* main.m in Sources */,
 			);
@@ -507,6 +541,7 @@
 				381869351F32174D0066CAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		381869361F32174D0066CAE8 /* Build configuration list for PBXNativeTarget "DrawGraphTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +550,7 @@
 				381869381F32174D0066CAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		381869391F32174D0066CAE8 /* Build configuration list for PBXNativeTarget "DrawGraphUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +559,7 @@
 				3818693B1F32174D0066CAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
